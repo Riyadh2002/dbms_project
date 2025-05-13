@@ -1,0 +1,45 @@
+/* Background with blurred image */
+
+.landing-page {
+    background-image: url('/images/background.jpg');    
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Glass Card */
+  .glass-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Buttons */
+  .glass-button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 0;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .glass-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  
