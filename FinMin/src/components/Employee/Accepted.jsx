@@ -101,17 +101,17 @@ export default function Accepted() {
     padding: "8px 16px", 
     color: "#00BCD4", 
     border: "1px solid #00BCD4", 
-    transition: "background-color 0.3s ease, color 0.3s ease", // Add color transition
+    transition: "background-color 0.3s ease, color 0.3s ease",
     opacity: "0.7"
   }}
   onClick={() => handleViewDetails(item)}
   onMouseEnter={(e) => {
     e.currentTarget.style.backgroundColor = "#00BCD4";
-    e.currentTarget.style.color = "white";  // Text color white on hover
+    e.currentTarget.style.color = "white";  
   }}
   onMouseLeave={(e) => {
     e.currentTarget.style.backgroundColor = "transparent";
-    e.currentTarget.style.color = "#00BCD4";  // Text color back to original
+    e.currentTarget.style.color = "#00BCD4";  
   }}
 >
   View Details
