@@ -5,6 +5,8 @@
 A full-stack web application designed to manage employee expenses, budgets, and request workflows efficiently for organizations. Built with React.js for frontend and Node.js for backend, FinMin streamlines expense approvals and budget management through a clean and modular interface.
 
 ---
+<img width="1288" height="728" alt="Frame 1" src="https://github.com/user-attachments/assets/8e6d3c22-0f34-4f79-a9c8-7a4f949ec882" />
+<img width="1288" height="728" alt="Frame 2" src="https://github.com/user-attachments/assets/e6d09b62-de55-42fe-a735-c10d879093bd" />
 
 <img width="1288" height="728" alt="Frame 6" src="https://github.com/user-attachments/assets/39cf4e79-bbb9-468c-8cc8-2b8263c32d2d" />
 
